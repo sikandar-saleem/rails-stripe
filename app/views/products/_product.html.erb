@@ -1,12 +1,6 @@
-<div id="<%= dom_id product %>">
-  <p>
-    <strong>Name:</strong>
-    <%= product.name %>
-  </p>
+<tr id="<%= dom_id product %>">
+  <td><%= product.name %></td>
+  <td><%= product.price %></td>
+  <td><%= link_to "Show", product %></td>
 
-  <p>
-    <strong>Price:</strong>
-    <%= product.price %>
-  </p>
-
-</div>
+</tr>
